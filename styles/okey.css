@@ -1,0 +1,100 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: url(https://images5.alphacoders.com/626/626362.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container
+{
+    width: 1100px;
+    margin: 0px auto;
+    border: 5px double cyan;
+}
+
+header
+{
+    background-image: url(https://ultimae.com/wp-content/uploads/2017/06/genesis_ambient_project_skansen_Kronan-900x200.jpg);
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border: 3px outset cyan;
+}
+
+nav
+{
+    text-align: center;
+    background:turquoise;
+    min-height: 50px;
+    border: solid black;
+}
+
+nav ul li
+{
+float: left;
+list-style: none;
+margin: 10px;
+line-height: 30px;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+#content
+{
+    float: left;
+    width: calc(80% - 20px);
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-simple-atmosphere-blue-technology-panel-background-image_278998.jpg);
+    color: blue;
+    min-height: 400px;
+    padding: 10px;
+}
+
+
+.escribir
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.article
+{
+    color: cyan;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: solid blue;
+    padding-bottom: 10px;
+}
+
+.article h2
+{
+    font-size: 30px;
+    color: white;
+}
+
+aside
+{
+    float: left;
+    width:  calc(20% - 20px);
+    background-image: url(https://i.pinimg.com/originals/25/2a/9e/252a9e80a3921858135feafb37f1fd1f.jpg);
+    min-height: 400px;
+    color: blue;
+    padding: 10px;
+    align-items: center;
+}
+
+footer
+{
+    background-color: cadetblue;
+    text-align: center;
+    min-height: 50px;
+    line-height: 50px;
+}
